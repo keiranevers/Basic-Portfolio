@@ -1,6 +1,7 @@
 
 body
 {
+	
 	border-style: solid;
 	border-color: Gray;
 	background-color: LightGray;
@@ -11,7 +12,7 @@ body
 .backgroundHeader
 {
 	background-color: #ffffff;
-	margin: 0px 0px 0px 0px;
+	padding: 10px 40px 0 40px;
 }
 .mainHeader
 {
@@ -51,11 +52,10 @@ section.block
 	float: left;
 	display: inline-block;
 	border-style: outset;
-	margin-left: 40px;
+	margin: 40px;
 	width: 450px;
 	border-color: #dddddd;
 	background-color: #ffffff;
-	margin: 40px;
 	padding: 10px;
 
 }
@@ -64,11 +64,10 @@ section.block
 	float:right;
 	display: inline-block;
 	border-style: outset;
-	margin-left: 40px;
+	margin: 40px;
 	width: 250px;
 	border-color: #dddddd;
 	background-color: #ffffff;
-	margin: 40px;
 	padding: 10px;
 }
 h1
@@ -105,5 +104,66 @@ footer
 	padding: 50px;
 	background-color: Gray;
 }
+            input[type=text], select {
+                width: 450px;
+                padding: 12px 20px;
+                margin: 8px 0;
+                display: inline-block;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                box-sizing: border-box;
+            }
 
+            input[type=text255], select {
+                width: 450px;
+                padding: 20px 20px 255px 20px;
+                margin: 8px 0;
+                display: inline-block;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                box-sizing: border-box;
+            }
+
+            input[type=submit] {
+                width: 450px;
+                background-color: #4CAF50;
+                color: white;
+                padding: 14px 20px;
+                margin: 8px 0;
+                border: none;
+                border-radius: 4px;
+                cursor: pointer;
+            }
+
+            input[type=submit]:hover {
+                background-color: #45a049;
+            }
+
+            div {
+                border-radius: 5px;
+                background-color: #f2f2f2;
+                padding: 20px;
+            }
+
+
+			div.gallery {
+    			margin: 5px;
+    			border: 1px solid #ccc;
+    			float: left;
+    			width: 150px;
+			}
+
+			div.gallery {
+    			border: 1px solid #777;
+			}
+
+			div.gallery img {
+    			width: 100%;
+    			height: auto;
+			}
+
+			div.desc {
+    			padding: 15px;
+    			text-align: center;
+			
 
